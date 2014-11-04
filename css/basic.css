@@ -1,4 +1,14 @@
 
+/*
+
+background header "black"
+background navigation #eeeeee
+background content white
+background footer black
+
+
+*/
+
 
 body {
     background-color: #ffffff;
@@ -29,7 +39,7 @@ body {
 }
 #content {
  
-    width:900px;
+    width:1000px;
     float:right;
     padding:10px;
 }
