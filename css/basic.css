@@ -53,3 +53,29 @@ body {
     padding:5px;
     
 }
+
+div.menu ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+div.menu ul a {
+
+    display: block;
+    width: 100%;
+    
+}
+
+div.menu ul li a:hover {
+    background-color:white;
+    
+    
+}
+
+.selected {
+    font-weight: bold;
+}
