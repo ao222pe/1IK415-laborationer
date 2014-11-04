@@ -1,7 +1,45 @@
+
+
 body {
-    background-color: lightblue;
+    background-color: #ffffff;
 }
-h1 {
-    color: navy;
-    margin-left: 20px;
+
+
+#container {
+    
+    width: 1200px;
+  
+  
+}
+
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#navigation {
+ 
+    line-height:30px;
+    background-color:#eeeeee;
+    width:170px;
+    float:left;
+    padding:5px;
+    height:100%;
+}
+#content {
+ 
+    width:900px;
+    float:right;
+    padding:10px;
+}
+
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    
 }
