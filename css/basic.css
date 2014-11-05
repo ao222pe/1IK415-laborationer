@@ -119,3 +119,8 @@ div.menu ul li a:hover {
 .center { width: 400px; margin-left: 50px;
     margin-right: auto;
     display: block }
+    
+    table, th, td {
+   border: 1px solid black;
+   width: 320px;
+}
