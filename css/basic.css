@@ -9,6 +9,20 @@ background footer black
 
 */
 
+h1      { font-size: 2em;       /* 2*16 = 32 */ font-family: "Comic Sans MS", cursive, sans-serif;        }
+h2      { font-size: 1.5em;     /* 1.5*16 = 24 */ font-family: "Comic Sans MS", cursive, sans-serif;      }
+h3      { font-size: 1.17em;    /* 1.17*16 = 18.72 */ font-family: "Comic Sans MS", cursive, sans-serif;  }
+
+p { line-height: 1.5;
+    margin: 0 0 1em;
+    margin-bottom: 20px;
+    font-family: "Times New Roman", Times, serif;
+        }
+
+p+p{
+  text-indent:2em;
+  margin-top:-20px;
+}
 
 body {
     background-color: #ffffff;
@@ -23,10 +37,16 @@ body {
 }
 
 #header {
-    background-color:black;
+    background-color:black; 
     color:white;
     text-align:center;
     padding:5px;
+    
+    background-image: url(../pics/Logo_inv.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 80px 60px;
+    
 }
 #navigation {
  
@@ -78,4 +98,14 @@ div.menu ul li a:hover {
 
 .selected {
     font-weight: bold;
+}
+
+/*unvisited link*/ 
+#content a:link {
+    color: #2149B8;
+}
+
+/* visited link */
+#content a:visited {
+    color: #B89021;
 }
